@@ -1,5 +1,7 @@
 这个一个使用ReactiveCocoa的例子。其功能是通过用户输入内容动态的搜索Tweets。下面我将对其目录结构做一个梳理，算作一个总结。
 
+项目的地址是:git@github.com:ColinEberhardt/ReactiveTwitterSearch.git
+
 #`Model`
 model由四个类组成。
 
