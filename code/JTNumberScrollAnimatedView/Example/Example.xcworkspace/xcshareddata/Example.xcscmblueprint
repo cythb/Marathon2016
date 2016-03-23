@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F905E420C330934DDAC552701538C674A1BE6D29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D998CCF4A849D41B5B782A2698398412EDBB9F82" : 0,
+    "F905E420C330934DDAC552701538C674A1BE6D29" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "D6A6EF72-5C55-48C0-B4D4-2722EA972F32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D998CCF4A849D41B5B782A2698398412EDBB9F82" : "..",
+    "F905E420C330934DDAC552701538C674A1BE6D29" : "JTNumberScrollAnimatedView\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Example",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/Example.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:cythb\/Marathon2016.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D998CCF4A849D41B5B782A2698398412EDBB9F82"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:jonathantribouharet\/JTNumberScrollAnimatedView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F905E420C330934DDAC552701538C674A1BE6D29"
+    }
+  ]
+}
