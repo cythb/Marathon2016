@@ -166,11 +166,14 @@
     CFTimeInterval duration = self.duration - ([numbersText count] * self.durationOffset);
     CFTimeInterval offset = 0;
     
+    NSLog(@"duration offset: %f", self.durationOffset);
+    
     for(CALayer *scrollLayer in scrollLayers){
         CGFloat maxY = [[scrollLayer.sublayers lastObject] frame].origin.y;
         
         CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"sublayerTransform.translation.y"];
         animation.duration = duration + offset;
+        NSLog(@"animation.duration: %f", duration + offset);
         animation.timingFunction = [CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseOut];
         
         if(self.isAscending){

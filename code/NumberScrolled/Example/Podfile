@@ -1,0 +1,15 @@
+source 'https://git.coding.net/hging/Specs.git'
+use_frameworks!
+
+target 'NumberScrolled_Example', :exclusive => true do
+  pod 'NumberScrolled', :path => '../'
+end
+
+target 'NumberScrolled_Tests', :exclusive => true do
+  pod 'NumberScrolled', :path => '../'
+
+  pod 'Quick', '~> 0.8'
+  pod 'Nimble', '~> 3.0'
+  pod 'FBSnapshotTestCase'
+  pod 'Nimble-Snapshots'
+end

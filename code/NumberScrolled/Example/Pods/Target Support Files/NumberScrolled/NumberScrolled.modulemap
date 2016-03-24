@@ -1,0 +1,6 @@
+framework module NumberScrolled {
+  umbrella header "NumberScrolled-umbrella.h"
+
+  export *
+  module * { export * }
+}

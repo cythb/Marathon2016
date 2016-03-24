@@ -1,0 +1,6 @@
+framework module Pods_NumberScrolled_Tests {
+  umbrella header "Pods-NumberScrolled_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
