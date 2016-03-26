@@ -7,18 +7,20 @@
 //
 
 import UIKit
+import NumberScrolled
 
 class ViewController: UIViewController {
+    @IBOutlet weak var animationView: NumberScrollAnimatedView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        animationView.value = Int(arc4random()) % 10000
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func startStopAni(sender: AnyObject) {
+        animationView.startAnimation()
     }
-
+    
 }
 
