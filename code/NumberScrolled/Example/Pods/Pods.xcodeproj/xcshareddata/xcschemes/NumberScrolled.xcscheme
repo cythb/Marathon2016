@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '09081B0543D8984D50069EFE'
+               BlueprintIdentifier = '846963E61E0D5A8A62CDC59C'
                BlueprintName = 'NumberScrolled'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'NumberScrolled.framework'>

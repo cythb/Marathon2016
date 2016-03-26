@@ -21,5 +21,10 @@
     "NumberScrolled": [
       "Pod/Assets/*.png"
     ]
+  },
+  "dependencies": {
+    "SnapKit": [
+      "~> 0.20"
+    ]
   }
 }

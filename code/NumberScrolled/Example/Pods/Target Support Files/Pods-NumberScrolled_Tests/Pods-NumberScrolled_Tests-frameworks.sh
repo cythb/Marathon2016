@@ -85,15 +85,13 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-NumberScrolled_Tests/NumberScrolled.framework"
-  install_framework "Pods-NumberScrolled_Tests/FBSnapshotTestCase.framework"
+  install_framework "Pods-NumberScrolled_Tests/SnapKit.framework"
   install_framework "Pods-NumberScrolled_Tests/Nimble.framework"
-  install_framework "Pods-NumberScrolled_Tests/Nimble_Snapshots.framework"
   install_framework "Pods-NumberScrolled_Tests/Quick.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-NumberScrolled_Tests/NumberScrolled.framework"
-  install_framework "Pods-NumberScrolled_Tests/FBSnapshotTestCase.framework"
+  install_framework "Pods-NumberScrolled_Tests/SnapKit.framework"
   install_framework "Pods-NumberScrolled_Tests/Nimble.framework"
-  install_framework "Pods-NumberScrolled_Tests/Nimble_Snapshots.framework"
   install_framework "Pods-NumberScrolled_Tests/Quick.framework"
 fi
